@@ -58,34 +58,3 @@ body {
   font-style: italic;
   border-right: 3px solid #f9f9f9;
 }
-
-.heart {
-  margin-top: 50px;
-  transform: rotate(45deg);
-  position: relative;
-  animation: beat 2s infinite, fadeIn 1s linear;
-}
-
-.heart:before,
-.heart:after,
-.heart {
-  height: 50px;
-  width: 50px;
-  background: #f96666;
-}
-
-.heart:before,
-.heart:after {
-  content: '';
-  position: absolute;
-  border-radius: 50%;
-}
-
-.heart:before {
-  top: 0;
-  left: -25px;
-}
-
-.heart:after {
-  top: -25px;
-}
