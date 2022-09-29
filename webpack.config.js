@@ -37,6 +37,11 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({ template: 'public/index.html' }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: path.resolve(__dirname, 'public/manifest'), to: 'manifest' },
+      ],
+    }),
   ],
   optimization: {
     minimize: true,
