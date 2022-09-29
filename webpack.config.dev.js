@@ -1,6 +1,5 @@
 const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlMinimizerPlugin = require('html-minimizer-webpack-plugin');
