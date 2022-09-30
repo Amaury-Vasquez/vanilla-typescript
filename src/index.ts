@@ -1,3 +1,6 @@
 import './styles/index.css';
+import { router } from './routes';
+// import './Header/index';
 
-export {};
+window.addEventListener('load', router);
+window.addEventListener('hashchange', router);
